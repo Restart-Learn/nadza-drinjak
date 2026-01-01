@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="bs">
+<head>
+    <meta charset="UTF-8">
+    <title>Moj CV | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<div class="layout"><!-- wrapper za aside + main -->
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+        <div class="profile">
+            <img src="ja-slika.png" alt="Profilna slika">
+            <h2>Nadža Drinjak</h2>
+            <p>WEB Designer</p>
+        </div>
+
+        <nav>
+            <a href="#home">Početna</a>
+            <a href="#about">O meni</a>
+            <a href="#skills">Vještine</a>
+            <a href="#projects">Radovi</a>
+            <a href="#contact">Kontakt</a>
+        </nav>
+
+        <div class="sidebar-footer">
+            <p>Kiseljak 📍 BiH</p>
+        </div>
+    </aside>
+
+    <!-- GLAVNI SADRŽAJ -->
+    <main class="content">
+
+        <section id="home" class="kuca">
+            <div class="kuca-div">
+            <h1>Nadža Drinjak</h1>
+            <p>Dobrodošli na moj CV i portfolio web sajt.</p>
+            </div>
+        </section>
+
+        <section id="about" class="section-wrapper">
+            <div class="wrapper">
+                <div class="section-text">
+                    <h1>O meni</h1>
+                    <p>
+                        Motivisana i odgovorna osoba sa izraženim interesovanjem za informatiku,
+                        digitalne tehnologije i kreativni rad. Volim učiti nove vještine,
+                        rješavati probleme i stalno unapređivati svoje znanje kroz praktične projekte.
+                        Posebno me interesuju oblasti web dizajna, programiranja i rada s bazama podataka.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section-wrapper">
+            <div class="wrapper">
+                <div class="section-text">
+                    <h1>Vještine</h1>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Bootstrap</li>
+                        <li>C++</li>
+                        <li>Microsoft Access</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section-wrapper">
+            <div class="wrapper">
+                <div class="section-text">
+                    <h1>Moji radovi</h1>
+
+                    <div class="card">
+                        <h3>F1 Web stranica</h3>
+                        <p>Stranica za prijavu na F1 utrku.</p>
+                        <a href="PROJEKTI/F1-formula/index.html">Pogledaj</a>
+                    </div>
+
+                    <div class="card">
+                        <h3>CV Web stranice</h3>
+                        <p>alkjbudahcobaod</p>
+                        <a href="PROJEKTI/cv-proba/index.html">Pogledaj</a>
+                    </div>
+
+                      <div class="card">
+                        <h3>AstroNote</h3>
+                        <p>Minimalistička stranica o planetama i galaksijama.</p>
+                        <a href="PROJEKTI/projekat/index.html">Pogledaj</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="contact-wrapper">
+
+                <div class="contact-text">
+                    <h1>Kontakt</h1>
+                    <p>Ako želiš da me kontaktiraš, popuni formu ispod.</p>
+                </div>
+
+                <form class="contact-form">
+                    <input type="text" placeholder="Ime i prezime" required>
+                    <input type="email" placeholder="Email adresa" required>
+                    <textarea placeholder="Vaša poruka" rows="5" required></textarea>
+                    <button type="submit" class="btn btn-outline-primary">Pošalji</button>
+                </form>
+
+            </div>
+        </section>
+
+    </main>
+
+</div>
+
+</body>
+</html>
+
