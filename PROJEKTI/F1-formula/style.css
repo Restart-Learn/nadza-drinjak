@@ -1,0 +1,100 @@
+body{
+   background-image: url("formula1.jpg");
+   background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px;
+}
+header{
+  background-color:  #ffffffcc;
+    text-align: center;
+    border-radius: 25px;
+    margin-bottom: 40px;
+    padding: 20px 500px;
+    color: #333;
+}
+header h1 {
+    font-size:45px;
+    color: #d32f2f;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+header p {
+    
+    color: #000000;
+    font-size: medium;
+    font-style: italic;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.form-wrapper{
+    background-color:  #ffffffcc;
+   padding: 30px 40px;
+  border-radius: 10%;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    max-width: 500px;
+    width: 100%;
+    transition: transform 0.3s ease;
+}
+.form-wrapper:hover {
+    transform: translateY(-5px);
+}
+form p {
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+input[type="text"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 10px 15px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 2px solid #f8b500;
+    border-radius: 8px;
+    outline: none;
+    font-size: 1rem;
+    transition: border 0.3s ease;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px 15px;
+    border: 2px solid #f80000;
+    border-radius: 8px;
+    outline: none;
+}
+
+
+button {
+    width: 100%;
+    padding: 12px 0;
+    font-weight: bold;
+    border-radius: 10px;
+   
+}
+
+button:hover {
+    background-color: #d32f2f;
+    color: #fff;
+    border: none;
+}
+
+
+@media (max-width: 600px) {
+    .form-wrapper {
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title> Prijava </title>
+            <link rel="stylesheet" href="style.css">
+             <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+         
+        </head>
+
+        <body >
+             <header> <h1> Prijava za trku F1 </h1>
+           <p><i>"Osjeti brzinu i postani dio utrke"</i></p></header>
+
+            <div class="container">
+              <div class="form-wrapper">
+            
+            
+            <form>
+                <p> Izaberi te tim: </p> 
+                <input type="radio" name="team" value="ferrari" required> Ferrari <br>
+                <input type="radio" name="team" value="mercedes benz"> Mercedes-Benz <br>
+                <input type="radio" name="team" value="red bull"> Red Bull <br><br>
+
+                <label for="username"> Unesite vaše ime:</label>
+                <input type="text" id="ime" name="ime" required placeholder="unesite vaše ime...">
+                                           <br><br>
+                <label for="username"> Unesite vaše prezime:</label>
+                <input type="text" id="prezime" name="prezime" required placeholder="unesite vaše prezime...">
+                                          <br><br>
+                <label for="email"> Unesite vaš email:</label>
+                <input type="email" id="email" name="email" placeholder="unesite vaš email...">
+
+                <p> Koliko imate godina?:</p>
+                <input type="radio" name="age" value="yunior"> 18-24 <br>
+                <input type="radio" name="age" value="medior"> 25-34 <br>
+                <input type="radio" name="age" value="senior"> 35-50 <br>
+
+               
+
+                <label for="question"> Sa kojim gumama započinjete trku ?</label> <br><br>
+                <select class="form-input" name="question" id="question"> 
+                    <option value="tyre"> Soft </option>
+                    <option value="tyre"> Medium </option>
+                    <option value="tyre"> Hard </option>
+                </select>
+                       <br><br>
+                <button type="submit" class="btn btn-outline-danger">Pošalji prijavu!</button>
+            </form>
+              </div>
+            </div>
+        </body>
+    </html>
